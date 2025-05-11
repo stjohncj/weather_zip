@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.tomorrow.io/v4/weather/realtime?apikey=LiHcMtyFj9f7nrXFku1OcQ5fDGsQhI3X&fields%5B%5D=temperature&fields%5B%5D=precipitation&location=New+York&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 11 May 2025 22:30:22 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      cf-ray:
+      - 93e51ed49c77a1e9-MSP
+      cf-cache-status:
+      - DYNAMIC
+      access-control-allow-origin:
+      - "*"
+      content-encoding:
+      - gzip
+      strict-transport-security:
+      - max-age=31536000
+      vary:
+      - accept-encoding
+      via:
+      - 1.1 google
+      cf-apo-via:
+      - origin,host
+      x-correlation-id:
+      - 9aaa436c-b8ce-42ed-bb75-6bfea61c5f75
+      x-db-credits-cost:
+      - '8'
+      x-kong-proxy-latency:
+      - '14'
+      x-kong-upstream-latency:
+      - '39'
+      x-ratelimit-remaining-plan-5f857927f9d5bdc6c63abb67:
+      - '10'
+      x-ratelimit-remaining-plan-5f96c370732c89cb4d9a98e8:
+      - '3'
+      x-ratelimit-remaining-plan-5fa4047f4acee993fbd7399d:
+      - '3'
+      x-ratelimit-remaining-plan-5fb2a269785f8043656f245e:
+      - '10'
+      x-ratelimit-remaining-plan-600d6ce482ff404e9a7a4c0c:
+      - '5'
+      x-ratelimit-remaining-plan-600d73bef98f624e9adcf465:
+      - '5'
+      x-ratelimit-remaining-plan-600d742fdee75e4e9aab6661:
+      - '5'
+      x-ratelimit-remaining-plan-6036283133bb2ff6d4bd82a7:
+      - '3'
+      x-ratelimit-remaining-plan-606d86d0a26c4d7df907bc7a:
+      - '5'
+      x-ratelimit-remaining-plan-609d458bdd3d437ff19fd44f:
+      - '5'
+      x-ratelimit-remaining-plan-60d46beae90c3b3549a59ff3:
+      - '3'
+      x-ratelimit-remaining-plan-60f00adf8d481f9421462962:
+      - '3'
+      x-ratelimit-remaining-plan-60f00d40803f8e9421c5a7f8:
+      - '5'
+      x-ratelimit-remaining-plan-60f58bbc299fbc36c91529aa:
+      - '5'
+      x-ratelimit-remaining-plan-648b3f22ef567da8b7fb4599:
+      - '3'
+      x-ratelimit-remaining-plan-649ab4540000000000b71412:
+      - '3'
+      x-ratelimit-remaining-web-app:
+      - '500000'
+      x-request-id:
+      - b74f3656-1d19-4125-8237-ef4d272c7094
+      set-cookie:
+      - __cf_bm=YzjAbirO1rkiJBHwchnh93.QXKeW6g1bbZ5PG3I5uY8-1747002622-1.0.1.1-Xp4zuoMNlK9JjldCcIq0L0_NgiUtPJuBohUt2jzov2F0_jXF8BPlaZ1q1lBqvZcapUuQmZ_KCW07tyCEEfmMQiuVWe23lO6AJ.SVfA1g2zE;
+        path=/; expires=Sun, 11-May-25 23:00:22 GMT; domain=.tomorrow.io; HttpOnly;
+        Secure; SameSite=None
+      expect-ct:
+      - max-age=86400, enforce
+      referrer-policy:
+      - same-origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-xss-protection:
+      - 1; mode=block
+      server:
+      - cloudflare
+    body:
+      encoding: UTF-8
+      string: '{"data":{"time":"2025-05-11T22:30:00Z","values":{"cloudBase":9.9,"cloudCeiling":9.9,"cloudCover":0,"dewPoint":38.7,"freezingRainIntensity":0,"humidity":52,"precipitationProbability":0,"pressureSeaLevel":30.35,"pressureSurfaceLevel":29.94,"rainIntensity":0,"sleetIntensity":0,"snowIntensity":0,"temperature":56.2,"temperatureApparent":56.2,"uvHealthConcern":0,"uvIndex":0,"visibility":9.94,"weatherCode":1000,"windDirection":278,"windGust":12.2,"windSpeed":10.9}},"location":{"lat":43.15616989135742,"lon":-75.8449935913086,"name":"New
+        York, United States","type":"administrative"}}'
+  recorded_at: Sun, 11 May 2025 22:30:22 GMT
+recorded_with: VCR 6.3.1
