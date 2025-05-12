@@ -15,7 +15,7 @@ WeatherZip - A sample application to lookup weather by zip code
     - rails-controller-testing
 
 * Configuration
-  - You must add a valid TOMORROW_IO_API_KEY
+  - You must add a valid TOMORROW_IO_API_KEY, an API key can be obtained for free by signing up for an account at https://www.tomorrow.io/
   - `bundle install`
   - `bin/rails s`
 
