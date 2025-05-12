@@ -63,4 +63,5 @@ group :test do
   gem "selenium-webdriver"
   gem "vcr"
   gem "climate_control"
+  gem "rails-controller-testing"
 end
